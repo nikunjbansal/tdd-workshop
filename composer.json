@@ -1,0 +1,14 @@
+{
+    "name": "nikunjbansal/tddworkshop",
+    "license": "MIT",
+    "autoload": {
+	    "psr-4": {"Dev\\": "src/Phpreboot/tdddevelopment"}
+  	},
+	"autoload-dev": {
+		"psr-4": {"Test\\": "tests/Phpreboot/tddworkshop"}
+	},
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "5.3"
+    }
+}
